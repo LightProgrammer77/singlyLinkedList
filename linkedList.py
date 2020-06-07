@@ -86,49 +86,11 @@ L1.insert(10)
 L1.insert_mid(15,3)
 
 
-# L1.delete_end()
+L1.delete_end()
 
-# L1.delete_start()
+L1.delete_start()
 
-# L1.delete_pos(2)
+L1.delete_pos(2)
 
 L1.update(15,88)
 L1.printLL()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # def insert_end(self,data):
-    #     current = self.head
-    #     newNode = Node(data)
-    #     while (current.next):
-    #         current = current.next
-    #     current.next = newNode
