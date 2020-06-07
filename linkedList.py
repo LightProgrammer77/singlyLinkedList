@@ -61,13 +61,14 @@ class LinkedList:
         current,pos = self.head,1
         while (current):
             pos += 1
-            prev = current
-            if current.next.data == data:
-                self.delete_pos(pos)
-                self.insert_mid(update_data,pos)
-                return
+            if current.next != None:
+                if current.next.data == data:
+                    self.delete_pos(pos)
+                    self.insert_mid(update_data,pos)
+                    return
+            else:
+                print("entered number is not in the list")
             current = current.next
-
 
 
 
